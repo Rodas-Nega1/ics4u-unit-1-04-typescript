@@ -9,7 +9,7 @@
 import promptSync from "prompt-sync";
 import random from "random";
 
-// Th
+// Variables and constants for a dice and guess count
 const prompt = promptSync();
 let attempts = 1;
 const dice = random.int(1, 6);
